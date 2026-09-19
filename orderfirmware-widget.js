@@ -2466,16 +2466,16 @@
             },
             "stages": {
               "stage1": {
-                "enabled": false,
+                "enabled": true,
                 "development": false,
-                "description": "",
-                "basePrice": 0
+                "description": "Прирост мощности +25 л.с.<br>Бензин не ниже АИ95.",
+                "basePrice": 20000
               },
               "stage1plus": {
-                "enabled": false,
+                "enabled": true,
                 "development": false,
-                "description": "",
-                "basePrice": 0
+                "description": "Прирост мощности +50 л.с.<br>Бензин не ниже АИ98.",
+                "basePrice": 25000
               },
               "stage2": {
                 "enabled": false,
@@ -2484,10 +2484,10 @@
                 "basePrice": 0
               },
               "custom": {
-                "enabled": true,
+                "enabled": false,
                 "development": false,
-                "description": "Прирост мощности +25 л.с.<br>Бензин не ниже АИ95.",
-                "basePrice": 20000
+                "description": "",
+                "basePrice": 0
               }
             }
           }
