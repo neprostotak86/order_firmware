@@ -143,7 +143,10 @@
       "Breeze": {
         "Gen 1 (2019-2023)": {
           "37805-66Z-B320": {
-            "options": {},
+            "options": {
+              "sl_off": 0,
+              "cat_off": 0
+            },
             "stages": {
               "stage1": {
                 "enabled": false,
@@ -165,26 +168,29 @@
               },
               "custom": {
                 "enabled": true,
-                "development": true,
-                "description": "",
-                "basePrice": 0
+                "development": false,
+                "description": "Прирост мощности +10-12 л.с.<br>Бензин не ниже АИ95.",
+                "basePrice": 15000
               }
             }
           },
           "37805-67A-B840": {
-            "options": {},
+            "options": {
+              "sl_off": 0,
+              "cat_off": 0
+            },
             "stages": {
               "stage1": {
-                "enabled": false,
+                "enabled": true,
                 "development": false,
-                "description": "",
-                "basePrice": 0
+                "description": "Прирост мощности +25 л.с.<br>Бензин не ниже АИ95.",
+                "basePrice": 20000
               },
               "stage1plus": {
-                "enabled": false,
+                "enabled": true,
                 "development": false,
-                "description": "",
-                "basePrice": 0
+                "description": "Прирост мощности +45 л.с.<br>Бензин не ниже АИ98.",
+                "basePrice": 25000
               },
               "stage2": {
                 "enabled": false,
@@ -243,19 +249,24 @@
         },
         "FC1": {
           "37805-5AJ-J610": {
-            "options": {},
+            "options": {
+              "sl_off": 0,
+              "cruise_off": 3000,
+              "cat_off": 0,
+              "immo_off": 4000
+            },
             "stages": {
               "stage1": {
-                "enabled": false,
+                "enabled": true,
                 "development": false,
-                "description": "",
-                "basePrice": 0
+                "description": "Прирост мощности +25 л.с.<br>Бензин не ниже АИ95.",
+                "basePrice": 20000
               },
               "stage1plus": {
-                "enabled": false,
+                "enabled": true,
                 "development": false,
-                "description": "",
-                "basePrice": 0
+                "description": "Прирост мощности +45 л.с.<br>Бензин не ниже АИ98.",
+                "basePrice": 30000
               },
               "stage2": {
                 "enabled": false,
@@ -264,8 +275,8 @@
                 "basePrice": 0
               },
               "custom": {
-                "enabled": true,
-                "development": true,
+                "enabled": false,
+                "development": false,
                 "description": "",
                 "basePrice": 0
               }
@@ -274,19 +285,24 @@
         },
         "FK7 (2017–2021)": {
           "37805-5AN-J110": {
-            "options": {},
+            "options": {
+              "sl_off": 0,
+              "cruise_off": 3000,
+              "cat_off": 0,
+              "immo_off": 4000
+            },
             "stages": {
               "stage1": {
-                "enabled": false,
+                "enabled": true,
                 "development": false,
-                "description": "",
-                "basePrice": 0
+                "description": "Прирост мощности +25 л.с.<br>Бензин не ниже АИ95.",
+                "basePrice": 20000
               },
               "stage1plus": {
-                "enabled": false,
+                "enabled": true,
                 "development": false,
-                "description": "",
-                "basePrice": 0
+                "description": "Прирост мощности +45 л.с.<br>Бензин не ниже АИ98.",
+                "basePrice": 30000
               },
               "stage2": {
                 "enabled": false,
@@ -295,27 +311,32 @@
                 "basePrice": 0
               },
               "custom": {
-                "enabled": true,
-                "development": true,
+                "enabled": false,
+                "development": false,
                 "description": "",
                 "basePrice": 0
               }
             }
           },
           "37805-5AN-J320": {
-            "options": {},
+            "options": {
+              "sl_off": 0,
+              "cruise_off": 3000,
+              "cat_off": 0,
+              "immo_off": 4000
+            },
             "stages": {
               "stage1": {
-                "enabled": false,
+                "enabled": true,
                 "development": false,
-                "description": "",
-                "basePrice": 0
+                "description": "Прирост мощности +25 л.с.<br>Бензин не ниже АИ95.",
+                "basePrice": 20000
               },
               "stage1plus": {
-                "enabled": false,
+                "enabled": true,
                 "development": false,
-                "description": "",
-                "basePrice": 0
+                "description": "Прирост мощности +45 л.с.<br>Бензин не ниже АИ98.",
+                "basePrice": 30000
               },
               "stage2": {
                 "enabled": false,
@@ -324,27 +345,32 @@
                 "basePrice": 0
               },
               "custom": {
-                "enabled": true,
-                "development": true,
+                "enabled": false,
+                "development": false,
                 "description": "",
                 "basePrice": 0
               }
             }
           },
           "37805-5AN-J330": {
-            "options": {},
+            "options": {
+              "sl_off": 0,
+              "cruise_off": 3000,
+              "cat_off": 0,
+              "immo_off": 4000
+            },
             "stages": {
               "stage1": {
-                "enabled": false,
+                "enabled": true,
                 "development": false,
-                "description": "",
-                "basePrice": 0
+                "description": "Прирост мощности +25 л.с.<br>Бензин не ниже АИ95.",
+                "basePrice": 20000
               },
               "stage1plus": {
-                "enabled": false,
+                "enabled": true,
                 "development": false,
-                "description": "",
-                "basePrice": 0
+                "description": "Прирост мощности +45 л.с.<br>Бензин не ниже АИ98.",
+                "basePrice": 30000
               },
               "stage2": {
                 "enabled": false,
@@ -353,27 +379,32 @@
                 "basePrice": 0
               },
               "custom": {
-                "enabled": true,
-                "development": true,
+                "enabled": false,
+                "development": false,
                 "description": "",
                 "basePrice": 0
               }
             }
           },
           "37805-5AN-J620": {
-            "options": {},
+            "options": {
+              "sl_off": 0,
+              "cruise_off": 3000,
+              "cat_off": 0,
+              "immo_off": 4000
+            },
             "stages": {
               "stage1": {
-                "enabled": false,
+                "enabled": true,
                 "development": false,
-                "description": "",
-                "basePrice": 0
+                "description": "Прирост мощности +25 л.с.<br>Бензин не ниже АИ95.",
+                "basePrice": 20000
               },
               "stage1plus": {
-                "enabled": false,
+                "enabled": true,
                 "development": false,
-                "description": "",
-                "basePrice": 0
+                "description": "Прирост мощности +45 л.с.<br>Бензин не ниже АИ98.",
+                "basePrice": 30000
               },
               "stage2": {
                 "enabled": false,
@@ -382,27 +413,32 @@
                 "basePrice": 0
               },
               "custom": {
-                "enabled": true,
-                "development": true,
+                "enabled": false,
+                "development": false,
                 "description": "",
                 "basePrice": 0
               }
             }
           },
           "37805-5AN-J630": {
-            "options": {},
+            "options": {
+              "sl_off": 0,
+              "cruise_off": 3000,
+              "cat_off": 0,
+              "immo_off": 4000
+            },
             "stages": {
               "stage1": {
-                "enabled": false,
+                "enabled": true,
                 "development": false,
-                "description": "",
-                "basePrice": 0
+                "description": "Прирост мощности +25 л.с.<br>Бензин не ниже АИ95.",
+                "basePrice": 20000
               },
               "stage1plus": {
-                "enabled": false,
+                "enabled": true,
                 "development": false,
-                "description": "",
-                "basePrice": 0
+                "description": "Прирост мощности +45 л.с.<br>Бензин не ниже АИ98.",
+                "basePrice": 30000
               },
               "stage2": {
                 "enabled": false,
@@ -411,27 +447,32 @@
                 "basePrice": 0
               },
               "custom": {
-                "enabled": true,
-                "development": true,
+                "enabled": false,
+                "development": false,
                 "description": "",
                 "basePrice": 0
               }
             }
           },
           "37805-5AN-J830": {
-            "options": {},
+            "options": {
+              "sl_off": 0,
+              "cruise_off": 3000,
+              "cat_off": 0,
+              "immo_off": 4000
+            },
             "stages": {
               "stage1": {
-                "enabled": false,
+                "enabled": true,
                 "development": false,
-                "description": "",
-                "basePrice": 0
+                "description": "Прирост мощности +25 л.с.<br>Бензин не ниже АИ95.",
+                "basePrice": 20000
               },
               "stage1plus": {
-                "enabled": false,
+                "enabled": true,
                 "development": false,
-                "description": "",
-                "basePrice": 0
+                "description": "Прирост мощности +45 л.с.<br>Бензин не ниже АИ98.",
+                "basePrice": 30000
               },
               "stage2": {
                 "enabled": false,
@@ -440,8 +481,8 @@
                 "basePrice": 0
               },
               "custom": {
-                "enabled": true,
-                "development": true,
+                "enabled": false,
+                "development": false,
                 "description": "",
                 "basePrice": 0
               }
@@ -450,19 +491,22 @@
         },
         "FL1": {
           "37805-64L-J530": {
-            "options": {},
+            "options": {
+              "sl_off": 0,
+              "cat_off": 0
+            },
             "stages": {
               "stage1": {
-                "enabled": false,
+                "enabled": true,
                 "development": false,
-                "description": "",
-                "basePrice": 0
+                "description": "Прирост мощности +25 л.с.<br>Бензин не ниже АИ95.",
+                "basePrice": 20000
               },
               "stage1plus": {
-                "enabled": false,
+                "enabled": true,
                 "development": false,
-                "description": "",
-                "basePrice": 0
+                "description": "Прирост мощности +45 л.с.<br>Бензин не ниже АИ98.",
+                "basePrice": 30000
               },
               "stage2": {
                 "enabled": false,
@@ -471,8 +515,8 @@
                 "basePrice": 0
               },
               "custom": {
-                "enabled": true,
-                "development": true,
+                "enabled": false,
+                "development": false,
                 "description": "",
                 "basePrice": 0
               }
@@ -621,6 +665,107 @@
                 "development": false,
                 "description": "Прирост мощности 10-12 л.с.",
                 "basePrice": 12000
+              }
+            }
+          }
+        },
+        "RW1, RW2": {
+          "37805-5PC-BD40": {
+            "options": {
+              "sl_off": 0,
+              "cruise_off": 3000,
+              "cat_off": 0
+            },
+            "stages": {
+              "stage1": {
+                "enabled": true,
+                "development": true,
+                "description": "Прирост мощности +25 л.с.<br>Бензин не ниже АИ95.",
+                "basePrice": 0
+              },
+              "stage1plus": {
+                "enabled": true,
+                "development": true,
+                "description": "Прирост мощности +45 л.с.<br>Бензин не ниже АИ98.",
+                "basePrice": 0
+              },
+              "stage2": {
+                "enabled": false,
+                "development": false,
+                "description": "",
+                "basePrice": 0
+              },
+              "custom": {
+                "enabled": false,
+                "development": false,
+                "description": "",
+                "basePrice": 0
+              }
+            }
+          },
+          "37805-5SJ-J520": {
+            "options": {
+              "sl_off": 0,
+              "cruise_off": 3000,
+              "cat_off": 0
+            },
+            "stages": {
+              "stage1": {
+                "enabled": true,
+                "development": true,
+                "description": "Прирост мощности +25 л.с.<br>Бензин не ниже АИ95.",
+                "basePrice": 0
+              },
+              "stage1plus": {
+                "enabled": true,
+                "development": true,
+                "description": "Прирост мощности +45 л.с.<br>Бензин не ниже АИ98.",
+                "basePrice": 0
+              },
+              "stage2": {
+                "enabled": false,
+                "development": false,
+                "description": "",
+                "basePrice": 0
+              },
+              "custom": {
+                "enabled": false,
+                "development": false,
+                "description": "",
+                "basePrice": 0
+              }
+            }
+          },
+          "37805-5SJ-J810": {
+            "options": {
+              "sl_off": 0,
+              "cruise_off": 3000,
+              "cat_off": 0
+            },
+            "stages": {
+              "stage1": {
+                "enabled": true,
+                "development": true,
+                "description": "Прирост мощности +25 л.с.<br>Бензин не ниже АИ95.",
+                "basePrice": 0
+              },
+              "stage1plus": {
+                "enabled": true,
+                "development": true,
+                "description": "Прирост мощности +45 л.с.<br>Бензин не ниже АИ98.",
+                "basePrice": 0
+              },
+              "stage2": {
+                "enabled": false,
+                "development": false,
+                "description": "",
+                "basePrice": 0
+              },
+              "custom": {
+                "enabled": false,
+                "development": false,
+                "description": "",
+                "basePrice": 0
               }
             }
           }
@@ -2987,16 +3132,16 @@
             },
             "stages": {
               "stage1": {
-                "enabled": false,
+                "enabled": true,
                 "development": false,
-                "description": "",
-                "basePrice": 0
+                "description": "Прирост мощности +25 л.с.<br>Бензин не ниже АИ95.",
+                "basePrice": 20000
               },
               "stage1plus": {
-                "enabled": false,
+                "enabled": true,
                 "development": false,
-                "description": "",
-                "basePrice": 0
+                "description": "Прирост мощности +50 л.с.<br>Бензин не ниже АИ98.",
+                "basePrice": 25000
               },
               "stage2": {
                 "enabled": false,
@@ -3005,10 +3150,10 @@
                 "basePrice": 0
               },
               "custom": {
-                "enabled": true,
+                "enabled": false,
                 "development": false,
-                "description": "Прирост мощности +25 л.с.<br>Бензин не ниже АИ95.",
-                "basePrice": 20000
+                "description": "",
+                "basePrice": 0
               }
             }
           },
@@ -3022,16 +3167,16 @@
             },
             "stages": {
               "stage1": {
-                "enabled": false,
+                "enabled": true,
                 "development": false,
-                "description": "",
-                "basePrice": 0
+                "description": "Прирост мощности +25 л.с.<br>Бензин не ниже АИ95.",
+                "basePrice": 20000
               },
               "stage1plus": {
-                "enabled": false,
+                "enabled": true,
                 "development": false,
-                "description": "",
-                "basePrice": 0
+                "description": "Прирост мощности +50 л.с.<br>Бензин не ниже АИ98.",
+                "basePrice": 25000
               },
               "stage2": {
                 "enabled": false,
@@ -3040,10 +3185,10 @@
                 "basePrice": 0
               },
               "custom": {
-                "enabled": true,
+                "enabled": false,
                 "development": false,
-                "description": "Прирост мощности +25 л.с.<br>Бензин не ниже АИ95.",
-                "basePrice": 20000
+                "description": "",
+                "basePrice": 0
               }
             }
           },
@@ -3057,16 +3202,16 @@
             },
             "stages": {
               "stage1": {
-                "enabled": false,
+                "enabled": true,
                 "development": false,
-                "description": "",
-                "basePrice": 0
+                "description": "Прирост мощности +25 л.с.<br>Бензин не ниже АИ95.",
+                "basePrice": 20000
               },
               "stage1plus": {
-                "enabled": false,
+                "enabled": true,
                 "development": false,
-                "description": "",
-                "basePrice": 0
+                "description": "Прирост мощности +50 л.с.<br>Бензин не ниже АИ98.",
+                "basePrice": 25000
               },
               "stage2": {
                 "enabled": false,
@@ -3075,10 +3220,10 @@
                 "basePrice": 0
               },
               "custom": {
-                "enabled": true,
+                "enabled": false,
                 "development": false,
-                "description": "Прирост мощности +25 л.с.<br>Бензин не ниже АИ95.",
-                "basePrice": 20000
+                "description": "",
+                "basePrice": 0
               }
             }
           },
@@ -3092,16 +3237,16 @@
             },
             "stages": {
               "stage1": {
-                "enabled": false,
+                "enabled": true,
                 "development": false,
-                "description": "",
-                "basePrice": 0
+                "description": "Прирост мощности +25 л.с.<br>Бензин не ниже АИ95.",
+                "basePrice": 20000
               },
               "stage1plus": {
-                "enabled": false,
+                "enabled": true,
                 "development": false,
-                "description": "",
-                "basePrice": 0
+                "description": "Прирост мощности +50 л.с.<br>Бензин не ниже АИ98.",
+                "basePrice": 25000
               },
               "stage2": {
                 "enabled": false,
@@ -3110,10 +3255,10 @@
                 "basePrice": 0
               },
               "custom": {
-                "enabled": true,
+                "enabled": false,
                 "development": false,
-                "description": "Прирост мощности +25 л.с.<br>Бензин не ниже АИ95.",
-                "basePrice": 20000
+                "description": "",
+                "basePrice": 0
               }
             }
           }
@@ -3128,16 +3273,16 @@
             },
             "stages": {
               "stage1": {
-                "enabled": false,
+                "enabled": true,
                 "development": false,
-                "description": "",
-                "basePrice": 0
+                "description": "Прирост мощности +25 л.с.<br>Бензин не ниже АИ95.",
+                "basePrice": 20000
               },
               "stage1plus": {
-                "enabled": false,
+                "enabled": true,
                 "development": false,
-                "description": "",
-                "basePrice": 0
+                "description": "Прирост мощности +50 л.с.<br>Бензин не ниже АИ98.",
+                "basePrice": 25000
               },
               "stage2": {
                 "enabled": false,
@@ -3146,10 +3291,10 @@
                 "basePrice": 0
               },
               "custom": {
-                "enabled": true,
+                "enabled": false,
                 "development": false,
-                "description": "Прирост мощности +25 л.с.<br>Бензин не ниже АИ95.",
-                "basePrice": 20000
+                "description": "",
+                "basePrice": 0
               }
             }
           },
@@ -3162,16 +3307,16 @@
             },
             "stages": {
               "stage1": {
-                "enabled": false,
+                "enabled": true,
                 "development": false,
-                "description": "",
-                "basePrice": 0
+                "description": "Прирост мощности +25 л.с.<br>Бензин не ниже АИ95.",
+                "basePrice": 20000
               },
               "stage1plus": {
-                "enabled": false,
+                "enabled": true,
                 "development": false,
-                "description": "",
-                "basePrice": 0
+                "description": "Прирост мощности +50 л.с.<br>Бензин не ниже АИ98.",
+                "basePrice": 25000
               },
               "stage2": {
                 "enabled": false,
@@ -3180,10 +3325,10 @@
                 "basePrice": 0
               },
               "custom": {
-                "enabled": true,
+                "enabled": false,
                 "development": false,
-                "description": "Прирост мощности +25 л.с.<br>Бензин не ниже АИ95.",
-                "basePrice": 20000
+                "description": "",
+                "basePrice": 0
               }
             }
           }
